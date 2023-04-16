@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "feda6b1c-b066-4830-9c7d-fd8939bc4cce",
+		"name": "Dependency_Injection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26043911"
+	},
+	"item": [
+		{
+			"name": "getRoot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getDependecy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Apr 2023 15:50:03 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Welcome to my Spring Boot application!"
+				}
+			]
+		},
+		{
+			"name": "getName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getName"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getName",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/getName",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"getName"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "6"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 16 Apr 2023 15:57:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Giulia"
+				}
+			]
+		}
+	]
+}
