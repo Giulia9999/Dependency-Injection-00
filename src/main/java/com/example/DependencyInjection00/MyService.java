@@ -5,12 +5,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MyService {
-    private final MyComponent myComponent;
-
     @Autowired
-    public MyService(MyComponent myComponent) {
+    private MyComponent myComponent;
+
+    public MyService() {
         System.out.println("MyService constructor has been called.");
-        this.myComponent = myComponent;
     }
 
     public String getName(){
